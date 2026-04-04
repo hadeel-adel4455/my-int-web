@@ -1,0 +1,5 @@
+client-side work on browser 
+HTML use to build the structure
+CSS used for styling and designing web page
+JS interactivity
+server-side work on server
