@@ -3,3 +3,7 @@ HTML use to build the structure
 CSS used for styling and designing web page
 JS interactivity
 server-side work on server
+docs for documents and notes
+images for pictures 
+vs code used to write and edit code
+git used to track changes and mange version
