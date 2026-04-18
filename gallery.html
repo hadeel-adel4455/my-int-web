@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>gallery</title>
+    <link rel="stylesheet" href="css/styel.css"> 
+</head>
+
+<body>
+
+<header>
+    <h1>gallery</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact Info</a></li>
+        <li><a href="gallery.html">gallery</a></li>
+    </ul>
+</nav>
+
+
+<main>
+
+    <section>
+      <div class="gallery-row">
+         <a href="images/-11.jpg">
+             <img src="images/-11.jpg" alt=""></a>
+         <a href="images/-66.jpg">
+            <img src="images/-66.jpg" alt=""></a>
+         <a href="images/-88.jpg">  
+            <img src="images/-88.jpg" alt=""></a>
+         <a href="images/-99.jpg"> 
+            <img src="images/-99.jpg" alt=""></a>
+         <a href="images/-77.jpg"> 
+            <img src="images/-77.jpg" alt=""></a>
+         <a href="images/-23.jpg"> 
+            <img src="images/-23.jpg" alt=""></a>
+         <a href="images/-20.jpg"> 
+            <img src="images/-20.jpg" alt=""></a>
+         <a href="images/-16.jpg"> 
+            <img src="images/-16.jpg" alt=""></a>
+         <a href="images/-25.jpg">
+            <img src="images/-25.jpg" alt=""></a>
+         <a href="images/-24.jpg">
+            <img src="images/-24.jpg" alt></a>
+         <a href="images/-13.jpg"class="hidden extra-image">
+            <img src="images/-13.jpg" alt=""></a>
+         <a href="images/-19.jpg"class="hidden extra-image"> 
+            <img src="images/-19.jpg" alt=""></a>
+         <a href="images/-27.jpg"class="hidden extra-image">
+            <img src="images/-27.jpg" alt=""></a>
+         <a href="images/-26.jpg"class="hidden extra-image">
+            <img src="images/-26.jpg" alt=""></a>
+          <a href="images/-14.jpg" class="hidden extra-image">
+            <img src="images/-14.jpg" alt=""></a>
+         <a href="images/-12.jpg" class="hidden extra-image">
+            <img src="images/-12.jpg" alt=""></a>
+         <a href="images/-21.jpg" class="hidden extra-image">
+            <img src="images/-21.jpg" alt=""></a>
+         <a href="images/-17.jpg" class="hidden extra-image">
+            <img src="images/-17.jpg" alt=""></a>
+         <a href="images/-15.jpg" class="hidden extra-image">
+            <img src="images/-15.jpg" alt=""></a>
+
+  <button onclick="showMore()">عرض المزيد</button>
+
+
+</div>
+
+    </section>
+
+</main>
+
+
+ 
+<script>
+function showMore() {
+  document.querySelectorAll('.hidden').forEach(el => {
+    el.classList.remove('hidden');
+  });
+}
+</script>
+
+</body>
+</html>
+

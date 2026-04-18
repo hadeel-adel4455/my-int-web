@@ -1,0 +1,155 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ⭐ خلفية الموقع */
+body {
+min-height: 100vh;
+background-image: url("../images/30.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;url(../images/-29.jpg)
+background-attachment: fixed;
+}
+
+/* طبقة خفيفة فوق الخلفية */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.15);
+  z-index: -1;
+}
+
+/* المحتوى في النص */
+section {
+  width: 80%;
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  color: #111;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* الهيدر */
+header {
+  text-align: center;
+  padding: 20px;
+  background:transparent ;
+  color: rgb(24, 18, 18);
+  width: 100%;
+}
+
+/* النافبار */
+nav {
+  text-align: center;
+  padding: 10px;
+  background: rgba(0,0,0,0.4);;
+  width: 100%;
+}
+
+nav a {
+  color: rgb(24, 17, 17);
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: yellow;
+}
+.gallery-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.gallery-row img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+.gallery-row img {
+  transition: transform 0.3s ease;
+}
+
+.gallery-row img:hover {
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  grid-column: 1 / -1; /* يخلي الزر تحت كامل الصف */
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #444;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* الفوتر */
+footer {
+  text-align: center;
+  padding: 10px;
+  background:rgba(0,0,0,0.5);
+  color: white;
+  width: 100%;
+}
+hr{
+    display: none;
+}
