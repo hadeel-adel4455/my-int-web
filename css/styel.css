@@ -67,7 +67,7 @@ nav a {
 }
 
 nav a:hover {
-  color: yellow;
+  color: rgb(229, 255, 0);
 }
 .gallery-row {
   display: grid;
@@ -115,7 +115,7 @@ button {
 }
 
 table {
-  width: 80%;
+  width: 80%; 
   border-collapse: collapse;
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 15px;
